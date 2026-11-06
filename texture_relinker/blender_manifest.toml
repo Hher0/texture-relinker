@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "texture_relinker"
+version = "0.1.2"
+name = "Texture Relinker"
+tagline = "Find and relink missing textures with fuzzy name matching"
+maintainer = "Nattakit Sunthonthip"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+tags = ["Material", "Pipeline"]
+
+[permissions]
+files = "Search folders for missing textures and relink them"
